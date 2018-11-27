@@ -1,0 +1,14 @@
+[1mdiff --git a/initialize.rb b/initialize.rb[m
+[1mindex e11ac43..2bbd792 100644[m
+[1m--- a/initialize.rb[m
+[1m+++ b/initialize.rb[m
+[36m@@ -12,6 +12,8 @@[m [mclass Tweet[m
+         @calendar = date[m
+         @text = content[m
+     end[m
+[32m+[m[41m    [m
+ end[m
+ [m
+[32m+[m
+ Tweet.new("Jessica", 11/19/18, "Hello there!")[m
+\ No newline at end of file[m
